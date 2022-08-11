@@ -85,6 +85,7 @@ p {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
 }
+/* TODO:: Combine next three sections comma deliniated and then find a way to combine them in a function */
 
 .benefit-lead {
     margin-bottom: 32px;
@@ -100,6 +101,7 @@ p {
     margin-bottom: 32px;
     color: #ffffff;
 }
+/* TODO:: Combine next three sections comma deliniated and then find a way to combine them in a function */
 
 .benefit-lead h3 {
     margin-bottom: 10px;
@@ -115,7 +117,7 @@ p {
     margin-bottom: 10px;
     text-align: center;
 }
-
+/* TODO: COmbine next three sections comma delineated and then find a way to combine them in a function */
 .benefit-lead img {
     display: block;
     margin: 10px auto;
@@ -143,7 +145,7 @@ p {
     background-color: #0072bb;
     color: #ffffff;
 }
-
+/* TODO:: Combine next three sections comma deliniated and then find a way to combine them in a function */
 .search-engine-optimization img {
     max-height: 200px;
 }
@@ -155,6 +157,7 @@ p {
 .social-media-marketing img {
     max-height: 200px;
 }
+/* TODO:: Combine next three sections comma deliniated and then find a way to combine them in a function */
 
 .search-engine-optimization h2 {
     margin-bottom: 20px;
