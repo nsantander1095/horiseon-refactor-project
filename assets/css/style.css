@@ -23,20 +23,16 @@ header h1 {
 header h1 .seo {
     color: #d9dcd6;
 }
-/*Changed div to nav*/
-header nav {
+/*Changed div to nav and deleted header parent relationship*/
+nav {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
 }
-/*Changed div to nav*/
-header nav ul {
-    list-style-type: none;
-}
-/*Chamged div to nav*/
-header nav ul li {
+/*Chamged div to nav and deleted header parent relationship*/
+nav a {
     display: inline-block;
     margin-left: 25px;
 }
