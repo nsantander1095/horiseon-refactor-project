@@ -134,6 +134,7 @@ p {
     max-width: 150px;
 }
 /* Refactored CSS to consolidate styles for content section */
+/* TODO: Change div here to section and change the html at line 24 and below */
 .content div {
     margin-bottom: 20px;
     padding: 50px;
