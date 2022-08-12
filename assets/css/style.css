@@ -85,59 +85,29 @@ p {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
 }
-/* TODO:: Combine next three sections comma deliniated and then find a way to combine them in a function */
-
-.benefit-lead {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-brand {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
+/* Comma delineated class selectors that do the same thing */
+.benefit-lead,
+.benefit-brand,
 .benefit-cost {
     margin-bottom: 32px;
     color: #ffffff;
 }
-/* TODO:: Combine next three sections comma deliniated and then find a way to combine them in a function */
-
-.benefit-lead h3 {
+/* Refactored CSS to use single h3 element selector instead of idividual class selectors */
+h3 {
     margin-bottom: 10px;
     text-align: center;
 }
-
-.benefit-brand h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-cost h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-/* TODO: COmbine next three sections comma delineated and then find a way to combine them in a function */
-.benefit-lead img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.benefit-brand img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
+/* Comma delineated class selectors that do the same thing*/
+.benefit-lead img,
+.benefit-brand img,
 .benefit-cost img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 /* Refactored CSS to consolidate styles for content section */
-/* TODO: Change div here to section and change the html at line 24 and below */
-.content div {
+/* Changed div here to article and change the html at line 25 and below */
+.content article {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -145,31 +115,14 @@ p {
     background-color: #0072bb;
     color: #ffffff;
 }
-/* TODO:: Combine next three sections comma deliniated and then find a way to combine them in a function */
-.search-engine-optimization img {
-    max-height: 200px;
-}
-
-.online-reputation-management img {
-    max-height: 200px;
-}
-
+/* Refactored CSS to comma delineate class selectors that do the same thing */
+.search-engine-optimization img,
+.online-reputation-management img,
 .social-media-marketing img {
     max-height: 200px;
 }
-/* TODO:: Combine next three sections comma deliniated and then find a way to combine them in a function */
-
-.search-engine-optimization h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.online-reputation-management h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.social-media-marketing h2 {
+/* Refactored CSS to use single h2 element selector instead of individual class selectors*/
+h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
